@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn_Page">
+
+    <TextView
+        android:id="@+id/headText"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:text="PUSTAK GRAH"
+        android:textAlignment="center"
+        android:textColor="#DFBF00"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="356dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border_box2"
+        android:backgroundTint="#B5B5B5"
+        android:hint="Email Address"
+        android:padding="12dp"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="@id/headText"
+        app:layout_constraintRight_toRightOf="@+id/headText"
+        app:layout_constraintTop_toBottomOf="@+id/headText" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="356dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border_box2"
+        android:backgroundTint="#B5B5B5"
+        android:hint="Password"
+        android:padding="12dp"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="@id/input_email"
+        app:layout_constraintRight_toRightOf="@+id/input_email"
+        app:layout_constraintTop_toBottomOf="@+id/input_email" />
+
+    <Button
+        android:id="@+id/signIn_btn"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border_box2"
+        android:text="Sign in"
+        android:textColor="@color/teal_200"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/input_password"
+        app:layout_constraintRight_toRightOf="@+id/input_password"
+        app:layout_constraintTop_toBottomOf="@+id/input_password" />
+
+    <Button
+        android:id="@+id/googleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ggle"
+        android:text="Sign in with Google"
+        android:textColor="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/signIn_btn"
+        app:layout_constraintRight_toRightOf="@id/signIn_btn"
+        app:layout_constraintTop_toBottomOf="@+id/signIn_btn"
+        app:layout_constraintVertical_bias="0.521" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

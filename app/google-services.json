@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "447553085967",
+    "project_id": "pustak-grah",
+    "storage_bucket": "pustak-grah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447553085967:android:640ae5b50beddbc8ccb97a",
+        "android_client_info": {
+          "package_name": "com.ras.pustakgrah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447553085967-5i9a9cn0l1aqnouldslervlevdn0of3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiRAM1GXeMp_bF7R1_wxypu2ybP9sd3Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447553085967-5i9a9cn0l1aqnouldslervlevdn0of3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
